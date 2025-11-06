@@ -386,7 +386,6 @@ def main():
     run_ingest_until_rollovers()
 
     print_report()
-    print("Done. (Cleanup is manual as requested.)")
 
 if __name__ == "__main__":
     main()
